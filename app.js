@@ -1,57 +1,61 @@
+// let favMovie = ( movie='Room', name= 'world') => console.log(`My favorite movie is ${movie},with ${name}`);
 
 
-let fruits = ['Banana', 'orange', 'Apple'];
+// // favMovie('ET','Tim');
 
-function printFruits() {
+// let str = 'Ryan Unruh';
+// let gitFirstName = (str) => {
+//   console.log(str.split(' ')[0]);
+// }
+
+// gitFirstName(str);
+
+
+
+// let getFirstNameConcise = (str) => console.log(str.split(' ')[0])
+
+// getFirstNameConcise(str);
+
+
+// let product = (a, b) => {
+//   return `exponent is ${a ** b} and product is ${a * b}`
   
-  let favFruit = fruits[2];
-  let leastFav = fruits[0]
-  console.log(fruits[0]);
+  // return {
+  //   exponent: a ** b,
+  //   product: a * b
+  // }
+// }
 
-  function printFavFruit() {
-    
-    console.log(favFruit);
-  }
+// console.log(product(2, 5))
 
-  function printLeastFavFruit() {
-    console.log(leastFav);
-    
-  }
-  printFavFruit();
-  printLeastFavFruit();
+// let info = (a,b,c) =>{
+// console.log(`name is ${a} location is ${b} food is ${c}`)
   
+// }
+
+// info('ryan', 'KS', 'snickers');
+
+
+
+// let arr = ['Paul', 'Birmingham', 'Kimchi'];
+
+// let info = (a,b,c) =>{
+// console.log(`name is ${a} location is ${b} food is ${c}`)
+  
+// }
+
+// info(...arr);
+
+
+
+let spreadStr = () =>{
+  let str = 'Paul';
+  let arr = [...str];
+  for (let index = 0; index < arr.length; index++) {
+   
+    console.log(`name is ${arr[index]} `);
+  }
+ 
 }
 
-printFruits();
-
-
-someFunc();
-function someFunc() {
-  console.log ('this is text')
-}
-
-
-let fun = function declare (){
- alert('alert this')
-}
-
-console.log(fun);
-
-
-
-
-
-// function Fruit(){
-//   let favFruit = fruits[2];
-//   console.log(fruits[0]);
-
-//   function favFruit(){
-//     console.log(favFruit);
-//   }
-//   favFruit();
-// };
-
-
-// Fruit();
-
-// console.log('End script');
+spreadStr();
